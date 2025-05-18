@@ -1,0 +1,49 @@
+        ***** SORTING ALGORITHMS *****
+
+Bubble Sort :
+    Usage : Used for sorting small data sets and whenever simple sorting is required.
+    Time complexity :
+        Best case : O(N)
+        Worst case : O(N^2)
+
+Insertion Sort :
+    Usage : Used whenever it is necessary to sort a partially sorted data.
+    Time complexity :
+        Best case : O(N)
+        Worst case : O(N^2)
+
+Selection Sort :
+    Usage : Used whenever it is necessary to sort a small data sets.
+            Used in Embedded systems where low memory usage is preferred than time complexity.
+    Time complexity :
+        Average : O(N^2)
+
+Quick Sort :
+    Usage : Used whenever it is necessary to sort large data sets.
+    Time complexity :
+        Average/Best case : O(N*log N)
+        Worst case : O(N^2)
+
+Merge Sort :
+    Usage : Used whenever it is necessary to sort large data sets and parallel sorting is required.
+    Procedure :
+        1.Sort the left half of the array (recursively)
+        2.Sort the right half of the array (recursively)
+        3.Merge the solutions
+    Time complexity :
+        Best case : O(N*log N)
+        Worst case : O(N*log N)
+
+
+        ****** SEARCHING ALGORITHMS ******
+
+
+Linear Search :
+    Usage : Used for searching a small and unsorted set of data which will not increase in size by much.
+    Time complexity :
+        Average : O(N)
+
+Binary Search :
+    Usage : Used in many data structures where sorted data is stored. It requires the array to be sorted in ascending or descending order
+    Time complexity :
+        Average : O(log(N))
